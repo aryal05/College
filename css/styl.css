@@ -1,17 +1,13 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   font-family: "Poppins", sans-serif;
- background:#397078 ;
+  background: #397078;
   color: #f8fafc;
   line-height: 1.6;
   transition: all 0.3s ease;
@@ -19,13 +15,24 @@ body {
 
 header {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   background: #1e293b;
+}
+
+header img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 1rem;
+  border: 4px solid #38bdf8;
+ 
 }
 
 header h1 {
   font-size: 2.2rem;
   color: #38bdf8;
+  margin-top: 1rem;
 }
 
 header p {
@@ -50,19 +57,12 @@ nav a {
   transition: color 0.3s;
 }
 
-
-
 nav a:hover {
   color: #38bdf8;
 }
 
-nav a:hover::after {
-  width: 100%;
-}
-
-
 main {
-  padding: 7rem ;
+  padding: 7rem;
 }
 
 section {
@@ -80,8 +80,6 @@ p {
   color: #e2e8f0;
 }
 
-
-
 ul li {
   margin-bottom: 1rem;
   color: #cbd5e1;
@@ -96,7 +94,7 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-
+/* FORM */
 form {
   display: flex;
   flex-direction: column;
@@ -104,7 +102,6 @@ form {
   background: #1e293b;
   padding: 1.5rem;
   border-radius: 8px;
-  
 }
 
 label {
