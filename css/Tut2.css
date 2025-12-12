@@ -1,0 +1,33 @@
+.container{
+display: grid;
+min-height: 100vh;
+grid-template-columns: 1fr, 1fr, 1fr;
+grid-template-rows: 1fr, 1fr, 1fr;
+grid-template-areas: "header header header"
+"menu main other"
+"footer footer footer";
+}
+
+header{
+grid-area: header;
+background-color: rgb(4, 4, 82);
+}
+
+menu{
+grid-area: menu;
+background-color: black;
+}
+
+main{
+grid-area: main;
+}
+
+.other{
+grid-area: other;
+background-color: rgb(4, 4, 82);
+}
+
+footer{
+grid-area: footer;
+background-color: rgb(4, 4, 82);
+}
